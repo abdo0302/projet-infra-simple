@@ -38,11 +38,6 @@ projet-infra-simple/
 │ └── insert-demo-data.sql
 └── README.md
 
-yaml
-Copier le code
-
----
-
 ## ⚙️ Installation & Utilisation  
 
 ### 1️⃣ Prérequis  
@@ -51,19 +46,15 @@ Copier le code
 
 ### 2️⃣ Cloner le projet  
 ```bash
-git clone https://github.com/username/projet-infra-simple.git
+git clone https://github.com/abdo0302/projet-infra-simple.git
 cd projet-infra-simple
+
 3️⃣ Démarrer les machines
-bash
-Copier le code
 vagrant up
 4️⃣ Accéder aux services
 Web : http://localhost:8080
 
 MySQL (depuis l’hôte) :
-
-bash
-Copier le code
 mysql -h 127.0.0.1 -P 3307 -u root -p
 📦 Publication sur Vagrant Cloud
 Les machines sont disponibles sur Vagrant Cloud :
@@ -74,8 +65,6 @@ Les machines sont disponibles sur Vagrant Cloud :
 
 👉 Exemple d’utilisation :
 
-bash
-Copier le code
 vagrant init ubuntu-web/web-server
 vagrant up
 🛠️ Dépannage (Troubleshooting)
@@ -93,4 +82,5 @@ Connexion MySQL refusée
 ✔️ Créer un environnement multi-machines automatisé
 ✔️ Uniformiser la configuration pour toute l’équipe
 ✔️ Partager des box sur Vagrant Cloud
+
 
