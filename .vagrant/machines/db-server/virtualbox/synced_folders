@@ -1,0 +1,1 @@
+{"rsync":{"/vagrant":{"type":"rsync","guestpath":"/vagrant","hostpath":"C:/DevOps/projet-infra-simple","disabled":false,"__vagrantfile":true,"owner":"vagrant","group":"vagrant"},"/vagrant_database":{"type":"rsync","guestpath":"/vagrant_database","hostpath":"C:/DevOps/projet-infra-simple/database","disabled":false,"__vagrantfile":true,"owner":"vagrant","group":"vagrant"}}}
