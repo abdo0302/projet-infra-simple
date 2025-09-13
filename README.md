@@ -50,9 +50,11 @@ git clone https://github.com/abdo0302/projet-infra-simple.git
 cd projet-infra-simple
 
 ### 3️⃣ Démarrer les machines
+```bash
 vagrant up
 
 ### 4️⃣ Accéder aux services
+```bash
 Web : http://localhost:8080
 
 MySQL (depuis l’hôte) :
@@ -79,10 +81,12 @@ Connexion MySQL refusée
 → Vérifier que le port 3307 est libre.
 
 ##🎯 Conclusion
+```bash
  Ce projet montre comment :
 ✔️ Créer un environnement multi-machines automatisé
 ✔️ Uniformiser la configuration pour toute l’équipe
 ✔️ Partager des box sur Vagrant Cloud
+
 
 
 
