@@ -49,9 +49,10 @@ projet-infra-simple/
 git clone https://github.com/abdo0302/projet-infra-simple.git
 cd projet-infra-simple
 
-3️⃣ Démarrer les machines
+### 3️⃣ Démarrer les machines
 vagrant up
-4️⃣ Accéder aux services
+
+### 4️⃣ Accéder aux services
 Web : http://localhost:8080
 
 MySQL (depuis l’hôte) :
@@ -77,10 +78,11 @@ Erreur 403/500 sur Nginx
 Connexion MySQL refusée
 → Vérifier que le port 3307 est libre.
 
-🎯 Conclusion
+##🎯 Conclusion
  Ce projet montre comment :
 ✔️ Créer un environnement multi-machines automatisé
 ✔️ Uniformiser la configuration pour toute l’équipe
 ✔️ Partager des box sur Vagrant Cloud
+
 
 
